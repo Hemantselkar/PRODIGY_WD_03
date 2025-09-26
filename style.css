@@ -22,7 +22,7 @@ h1 {
     padding: 10px 20px;
     font-size: 14px;
     border: none;
-    background: #4caf50; /* Initial Green color for Computer Mode */
+    background: #4caf50; 
     color: white;
     font-weight: bold;
     cursor: pointer;
@@ -78,11 +78,11 @@ h1 {
 }
 
 .cell.x {
-    color: #ff4b4b; /* Red X */
+    color: #ff4b4b; 
 }
 
 .cell.o {
-    color: #4caf50; /* Green O */
+    color: #4caf50; 
 }
 
 #reset {
@@ -103,7 +103,7 @@ h1 {
     transform: scale(1.05);
 }
 
-/* Win/Draw styling for cells */
+/* Win/Draw styling  */
 .cell.winner {
     background: #ffcc00 !important;
     color: #1e1f29 !important;
